@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Your controller: @RequestMapping("/scan")
 // Your CORS:       @CrossOrigin(origins = "http://localhost:5173")
-const BASE = "https://security-scanner-qnes.onrender.com";
+const BASE = "https://security-scanner-qnes.onrender.com/scan";
 
 // POST /scan/file  — multipart file upload
 export const scanFile = (file) => {
